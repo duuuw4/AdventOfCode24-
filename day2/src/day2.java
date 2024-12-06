@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class day2 {
-    public static int day3Solution(int[][] lines) {
+    public static int day2Solution(int[][] lines) {
         int result = 0;
 
         for (int[] line : lines) {
@@ -59,6 +59,6 @@ public class day2 {
 
         int[][] arr = temp1.toArray(new int[0][]);
 
-        System.out.println(day3Solution(arr));
+        System.out.println(day2Solution(arr));
     }
 }
