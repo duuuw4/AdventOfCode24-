@@ -22,8 +22,8 @@ class day1 {
         List<Integer> temp2 = new ArrayList<>();
 
         while ((line = reader.readLine()) != null) {
-            temp1.add(Integer.valueOf(line.split("   ")[0]));
-            temp2.add(Integer.valueOf(line.split("   ")[1]));
+            temp1.add(Integer.valueOf(line.split("\\s+")[0]));
+            temp2.add(Integer.valueOf(line.split("\\s+")[1]));
         }
         reader.close();
 
